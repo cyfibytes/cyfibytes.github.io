@@ -12,7 +12,9 @@ layout: default
         {{ post.excerpt }}
       </div>
       
-      {{ post.tags }}
+      {% for tag in post.tags %}
+        <p>{{ tag }}</p>
+      {% endfor %}
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
