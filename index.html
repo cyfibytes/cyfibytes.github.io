@@ -5,15 +5,15 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article>
-      <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-      <h3 style="color:#fff;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <span style="font-size:14px;">{{ post.date | date: "%B %-d, %Y"  }}</span>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}" style="color:#fff">{{ post.title }}</a></h3>
 
       <div class="entry">
         <p class="m-0 mb-1">{{ post.excerpt }}</p>
       </div>
       
       {% for tag in post.categories %}
-        <p>{{ tag }}</p>
+        <a class="btn btn-default btn-sm">{{ tag }}</p>
       {% endfor %}
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
