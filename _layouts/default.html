@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <header class="py-2" style="background: var(--body-color);color: #fff;">
+    <header class="py-2" style="background:var(--body-color);color: #fff;">
       <div class="flex items-center mx-auto" style="max-width: 700px;padding-left: 20px;padding-right: 20px;">
         <div class="flex-auto">
           <a href="{{ site.baseurl }}/" class="mr-2"><img src="{{ site.avatar }}" style="max-width:48px;max-height:48px;border-radius:5px;"/></a>
@@ -22,9 +22,10 @@
           <a href="{{ site.baseurl }}/about" class="ml-2" style="color:#fff;">About</a>
         </nav>
       </div>
+      <hr style="height:1px;" />
     </header>
 
-    <main class="container" style="max->
+    <main class="py-2 mx-auto" style="background:var(--body-color);color: #fff;max-width:700px;">
       {{ content }}
     </main>
 
