@@ -10,10 +10,14 @@ layout: default
       <h3 class="m-0"><a href="{{ site.baseurl }}{{ post.url }}" style="color:#fff">{{ post.title }}</a></h3>
       
       {% for tag in post.categories %}
-        <span style="font-size:14px;">{{ tag }}</span>
+        <span style="font-size:14px;background: #f1f1f1;
+padding: 2px 5px 3px 5px;
+border-radius: 3px;
+font-size: 12px;
+font-weight: bold;
+color: #555;
+text-transform: lowercase;margin-right:2px">{{ tag }}</span>
       {% endfor %}
-
-      <a class="block" style="font-size:14px;" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
     </article>
   {% endfor %}
 </div>
