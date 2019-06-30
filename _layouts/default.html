@@ -13,12 +13,12 @@
 
   <body>
     <header class="py-4" style="background: var(--body-color);color: #fff;">
-      <div class="mx-auto" style="max-width: 740px;padding-left: 20px;padding-right: 20px;">
+      <div class="flex items-center mx-auto" style="max-width: 740px;padding-left: 20px;padding-right: 20px;">
         <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" style="max-width:60px;"/></a>
-        <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        <h1 class="flex-auto" style="color:#fff;"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
         <nav>
-          <a href="{{ site.baseurl }}/">Blog</a>
-          <a href="{{ site.baseurl }}/about">About</a>
+          <a href="{{ site.baseurl }}/" style="color:#fff;">Blog</a>
+          <a href="{{ site.baseurl }}/about" style="color:#fff;">About</a>
         </nav>
       </div>
     </header>
