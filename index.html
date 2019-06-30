@@ -13,7 +13,7 @@ layout: default
       </div>
       
       {% for tag in post.categories %}
-        <a class="btn btn-default btn-sm">{{ tag }}</p>
+        <span style="font-size:14px;">{{ tag }}</span>
       {% endfor %}
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
