@@ -6,11 +6,8 @@ layout: default
   {% for post in site.posts %}
     <article>
       <span style="font-size:14px;">{{ post.date | date: "%B %-d, %Y"  }}</span>
-      <h3><a href="{{ site.baseurl }}{{ post.url }}" style="color:#fff">{{ post.title }}</a></h3>
-
-      <div class="entry">
-        <p class="m-0 mb-1">{{ post.excerpt }}</p>
-      </div>
+      
+      <h3 class="m-0"><a href="{{ site.baseurl }}{{ post.url }}" style="color:#fff">{{ post.title }}</a></h3>
       
       {% for tag in post.categories %}
         <span style="font-size:14px;">{{ tag }}</span>
