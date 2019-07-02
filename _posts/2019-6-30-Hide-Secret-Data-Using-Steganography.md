@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hide Secret Data Using Steganography
-categories: [Tech, Personal]
+categories: [Privacy, Communication]
 ---
 
 Your communications are being monitored by employers, third party services, and prying eyes. As privacy continues to be obstructed and impeded upon, users will find alternative methods of communicating to avoid being monitored.
