@@ -18,8 +18,8 @@ a {
 }
 
 pre, code {
-  background-color: var(--pre-background-color);
-  
+  /* background-color: var(--pre-background-color); */
+  background-color: #24292e;
 }
 
 code {
