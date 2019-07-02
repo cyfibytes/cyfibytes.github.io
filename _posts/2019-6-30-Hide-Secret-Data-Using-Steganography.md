@@ -4,7 +4,6 @@ title: Hide Secret Data Using Steganography
 categories: [Tech, Personal]
 ---
 
-# Hide Secret Data Using Steganography
 Your communications are being monitored by employers, third party services, and prying eyes. As privacy continues to be obstructed and impeded upon, users will find alternative methods of communicating to avoid being monitored.
 
 To hide the existence of data from a third party we can use a covert communication art known as steganography. Steganography is the practice of concealing data by embedding it within other data, such as audio, video, or an image file. The difference between steganography and encryption is that only the sender and recipient know that there is hidden data.
