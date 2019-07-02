@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hide Secret Data Using Steganography
-categories: [Privacy, Communication]
+categories: [Privacy]
 ---
 
 Your communications are being monitored by employers, third party services, and prying eyes. As privacy continues to be obstructed and impeded upon, users will find alternative methods of communicating to avoid being monitored.
@@ -46,7 +46,7 @@ steghide {embed/extract/info} [arguments]
 
 We are going to use the image below to conceal a message. Save the image to your machine.
 
-![car](car.jpg)
+![car](images/car.jpg)
 
 Create a text file with the following message:
 ```
