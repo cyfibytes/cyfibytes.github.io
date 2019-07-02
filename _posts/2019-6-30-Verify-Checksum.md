@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Verify Checksum
-categories: [Tech, Personal]
+categories: [Security]
 ---
 
 * Problem
