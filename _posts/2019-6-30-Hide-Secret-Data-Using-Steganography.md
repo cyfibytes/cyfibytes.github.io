@@ -46,7 +46,7 @@ steghide {embed/extract/info} [arguments]
 
 We are going to use the image below to conceal a message. Save the image to your machine.
 
-![car](images/car.jpg)
+![car](/images/car.jpg)
 
 Create a text file with the following message:
 ```
