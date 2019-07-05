@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploy Network-Wide Ad-Blocking
-categories: [Security, Privacy]
+categories: [Privacy]
 ---
 
 Pi-Hole is an open source ad blocker.
