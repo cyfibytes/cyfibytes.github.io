@@ -4,7 +4,7 @@ layout: default
 
 <div>
   {% for post in site.posts %}
-    {% for tag in post %}
+    {% for tag in post.categories %}
       <p>{{ tag }}</p>
     {% endfor %}
   {% endfor %}
