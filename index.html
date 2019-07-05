@@ -2,9 +2,13 @@
 layout: default
 ---
 
-{% for cat in site.categories %}
-  <p>{{ cat }}</p>
-{% endfor %}
+<div>
+  {% for post in site.posts %}
+    {% for cat in post %}
+      <p>{{ cat }}</p>
+    {% endfor %}
+  {% endfor %}
+</div>
 
 <div class="posts">
   {% for post in site.posts %}
