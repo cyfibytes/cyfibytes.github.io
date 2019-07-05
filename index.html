@@ -2,8 +2,10 @@
 layout: default
 ---
 
-{% for tag in site.posts.categories %}
-<span style="color:#fff;">tag</span>
+{% for post in site.posts %}
+  {% for tag in post.categories %}
+    <span style="color:#fff;">tag</span>
+  {% endfor %}
 {% endfor %}
 
 <div class="posts">
