@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% for cat in site.categories %}
+  <p>{{ cat }}</p>
+{% endfor %}
+
 {% for post in site.posts %}
   {% for tag in post.categories %}
     <span style="color:#fff;">{{ tag }}</span>
