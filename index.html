@@ -2,14 +2,6 @@
 layout: default
 ---
 
-<div>
-  {% for post in site.posts %}
-    {% for tag in post.categories %}
-      <p>{{ tag }}</p>
-    {% endfor %}
-  {% endfor %}
-</div>
-
 <div class="posts">
   {% for post in site.posts %}
     <article style="margin-bottom:32px;">
