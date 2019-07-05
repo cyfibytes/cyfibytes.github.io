@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% for tag in site.posts.categories %}
+<span style="color:#fff;">tag</span>
+{% endfor %}
+
 <div class="posts">
   {% for post in site.posts %}
     <article style="margin-bottom:32px;">
