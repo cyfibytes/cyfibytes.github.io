@@ -6,12 +6,6 @@ layout: default
   <p>{{ cat }}</p>
 {% endfor %}
 
-{% for post in site.posts %}
-  {% for tag in post.categories %}
-    <span style="color:#fff;">{{ tag }}</span>
-  {% endfor %}
-{% endfor %}
-
 <div class="posts">
   {% for post in site.posts %}
     <article style="margin-bottom:32px;">
